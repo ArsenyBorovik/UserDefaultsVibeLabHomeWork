@@ -10,12 +10,13 @@
 		EAD416AB2B3BBBFE007CF3BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD416AA2B3BBBFE007CF3BF /* AppDelegate.swift */; };
 		EAD416AD2B3BBBFE007CF3BF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD416AC2B3BBBFE007CF3BF /* SceneDelegate.swift */; };
 		EAD416AF2B3BBBFE007CF3BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD416AE2B3BBBFE007CF3BF /* ViewController.swift */; };
-		EAD416B22B3BBBFE007CF3BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAD416B02B3BBBFE007CF3BF /* Main.storyboard */; };
 		EAD416B42B3BBC00007CF3BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAD416B32B3BBC00007CF3BF /* Assets.xcassets */; };
 		EAD416B72B3BBC00007CF3BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAD416B52B3BBC00007CF3BF /* LaunchScreen.storyboard */; };
 		EAD416C22B3BBC00007CF3BF /* UserDefaultsVibeLabHomeWorkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD416C12B3BBC00007CF3BF /* UserDefaultsVibeLabHomeWorkTests.swift */; };
 		EAD416CC2B3BBC00007CF3BF /* UserDefaultsVibeLabHomeWorkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD416CB2B3BBC00007CF3BF /* UserDefaultsVibeLabHomeWorkUITests.swift */; };
 		EAD416CE2B3BBC00007CF3BF /* UserDefaultsVibeLabHomeWorkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD416CD2B3BBC00007CF3BF /* UserDefaultsVibeLabHomeWorkUITestsLaunchTests.swift */; };
+		EAD416DB2B3C8E12007CF3BF /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD416DA2B3C8E12007CF3BF /* Model.swift */; };
+		EAFB2D2F2B3C9CB0005DF7E0 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFB2D2E2B3C9CB0005DF7E0 /* StorageManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +41,6 @@
 		EAD416AA2B3BBBFE007CF3BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EAD416AC2B3BBBFE007CF3BF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		EAD416AE2B3BBBFE007CF3BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EAD416B12B3BBBFE007CF3BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EAD416B32B3BBC00007CF3BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EAD416B62B3BBC00007CF3BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EAD416B82B3BBC00007CF3BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +49,8 @@
 		EAD416C72B3BBC00007CF3BF /* UserDefaultsVibeLabHomeWorkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UserDefaultsVibeLabHomeWorkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAD416CB2B3BBC00007CF3BF /* UserDefaultsVibeLabHomeWorkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsVibeLabHomeWorkUITests.swift; sourceTree = "<group>"; };
 		EAD416CD2B3BBC00007CF3BF /* UserDefaultsVibeLabHomeWorkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsVibeLabHomeWorkUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EAD416DA2B3C8E12007CF3BF /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		EAFB2D2E2B3C9CB0005DF7E0 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +104,8 @@
 				EAD416AA2B3BBBFE007CF3BF /* AppDelegate.swift */,
 				EAD416AC2B3BBBFE007CF3BF /* SceneDelegate.swift */,
 				EAD416AE2B3BBBFE007CF3BF /* ViewController.swift */,
-				EAD416B02B3BBBFE007CF3BF /* Main.storyboard */,
+				EAFB2D2E2B3C9CB0005DF7E0 /* StorageManager.swift */,
+				EAD416DA2B3C8E12007CF3BF /* Model.swift */,
 				EAD416B32B3BBC00007CF3BF /* Assets.xcassets */,
 				EAD416B52B3BBC00007CF3BF /* LaunchScreen.storyboard */,
 				EAD416B82B3BBC00007CF3BF /* Info.plist */,
@@ -233,7 +236,6 @@
 			files = (
 				EAD416B72B3BBC00007CF3BF /* LaunchScreen.storyboard in Resources */,
 				EAD416B42B3BBC00007CF3BF /* Assets.xcassets in Resources */,
-				EAD416B22B3BBBFE007CF3BF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +262,9 @@
 			files = (
 				EAD416AF2B3BBBFE007CF3BF /* ViewController.swift in Sources */,
 				EAD416AB2B3BBBFE007CF3BF /* AppDelegate.swift in Sources */,
+				EAFB2D2F2B3C9CB0005DF7E0 /* StorageManager.swift in Sources */,
 				EAD416AD2B3BBBFE007CF3BF /* SceneDelegate.swift in Sources */,
+				EAD416DB2B3C8E12007CF3BF /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +301,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		EAD416B02B3BBBFE007CF3BF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EAD416B12B3BBBFE007CF3BF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EAD416B52B3BBC00007CF3BF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -447,7 +443,6 @@
 				INFOPLIST_FILE = UserDefaultsVibeLabHomeWork/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -475,7 +470,6 @@
 				INFOPLIST_FILE = UserDefaultsVibeLabHomeWork/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
